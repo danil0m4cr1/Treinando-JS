@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.input-container {
+    display: flex;
+    
+    & input {
+        margin-left: 0.5rem;
+        width: 100px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    & button {
+        width: 50%;
+    }
+}
+
+#select {
+    margin-top: 0.5rem;
+    width: 200px;
+}
