@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+header {
+    margin-top: 2rem;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: gray;
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+
+    & button {
+        border: 0;
+        padding: 0.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+.numeros {
+    display: none;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
