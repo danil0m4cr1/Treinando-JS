@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+
+}
+
+header {
+    margin-top: 2rem;
+
+    & h1 {
+        font-size: 2.5em;
+    }
+}
+
+main {
+    display: flex;
+    margin-top: 1rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: gray;
+    padding: 2rem;
+
+
+    & div {
+        display: flex;
+        padding: 1rem;
+
+        & p {
+            font-size: 1.3em;
+        }
+
+        & input {
+            margin-left: 0.5rem;
+            width: 100px;
+        }
+    }
+
+    & button {
+        margin: auto;
+        width: 50%;
+    }
+}
+

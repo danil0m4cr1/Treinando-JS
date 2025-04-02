@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+header {
+    margin-top: 2rem;
+    font-size: 1.7em;
+    color: white;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.div1 {
+    padding: 2rem;
+    display: flex;
+}
+
+.div1 input {
+    margin-left: 0.5rem;
+    width: 100px;
+}
+
+.div2 {
+    display: flex;
+}
+
+.div2 input {
+    margin-left: 1rem;
+}
+
+.div2 label {
+    margin-left: 0.3rem;
+}
+
+.input-sub {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    background-color: darkslateblue;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
