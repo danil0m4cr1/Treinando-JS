@@ -1,4 +1,5 @@
-function clicar(){
-    let numeros = document.querySelectorAll('.numeros').value;
+function clicarN(){
+    let numeros = document.querySelectorAll('#active');
     
+    console.log(numeros)
 }
